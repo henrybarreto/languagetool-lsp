@@ -6,12 +6,12 @@ LanguageTool Language Server is a implementation of LSP protocol to enable proof
 
 ## Features
 
-- [] check for errors in the file
-    - [] check for errors in git files
+- [ ] check for errors in the file
+    - [ ] check for errors in git files
     - [x] check for errors in strings (`""`, `''`, ` `` `)
     - [x] check for errors in comments (`//`, `/*`)
-- [] use fix based on suggestions
-- [] add and remove words from dictionary
+- [ ] use fix based on suggestions
+- [ ] add and remove words from dictionary
 
 
 ## Usage
@@ -53,8 +53,8 @@ Using the basic of LLS on NVim with `coc-nvim`, just type `:CocConfig` and add t
 	"languageserver": {
 		"languagetool-language-server": {
 			"module": "<path>/languagetool-language-server/build/index.js",
-            "args": ["--node-ipc"],
-            "filetypes": ["*"],
+			"args": ["--node-ipc"],
+			"filetypes": ["*"],
 			"initializationOptions": {
 			}
 		}
