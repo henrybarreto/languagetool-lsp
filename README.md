@@ -14,7 +14,7 @@ LanguageTool Language Server is an implementation of [Language Server Protocol](
       - [x] `//`
       - [x] `/* */`
       - add more...
-- [ ] use suggestions to text's aid
+- [ ] use suggestions to text fix
 - [ ] add and remove words from dictionary
 
 
