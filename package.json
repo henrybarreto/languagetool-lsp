@@ -1,8 +1,10 @@
 {
   "name": "languagetool-language-server",
-  "version": "0.1.0",
-  "description": "Proofreading language server",
+  "description": "Proofreading/text analysis language server",
+  "author": "Henry Barreto <me@henrybarreto.dev>",
+  "license": "MIT",
   "main": "build/index.js",
+  "version": "0.1.0",
   "scripts": {
     "server": "java -cp bin/LanguageTool-5.8/languagetool-server.jar org.languagetool.server.HTTPServer --port 8081 --allow-origin",
     "fmt": "npx prettier --parser typescript --write src/",
@@ -12,12 +14,11 @@
   "keywords": [
     "languagetool",
     "proofreading",
+    "text analysis",
     "language",
     "server",
     "lsp"
   ],
-  "author": "Henry Barreto <me@henrybarreto.dev>",
-  "license": "MIT",
   "dependencies": {
     "axios": "^0.27.2",
     "vscode-languageserver": "^8.0.2",
